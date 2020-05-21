@@ -1,0 +1,134 @@
+.studentClass{
+    background-color: #ffffff;
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    min-height: 558px;
+    overflow: hidden;
+    translate: all .3s;
+
+    .localvideo_main{
+        position: relative;
+        height: 187px;
+        // overflow: hidden;
+    }
+    .sub_wrapper{
+        position: absolute;
+        top: 0px;
+        left: 249px;
+        right: 20px;
+        bottom: 0;
+    }
+    .classroom_layout {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0;
+        box-sizing: border-box;
+        top: 0px;
+        bottom: 0px;
+        background-color: #f4f4f4;
+    }
+
+    .classroom_left {
+        position: relative;
+    }
+
+    .h0 {
+        height: 0 !important;
+    }
+    .openLeft{
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .App{
+        .studentClass{
+            min-width: 200px;
+        }
+        .studentFooter{
+            display: block;
+            height:24px;
+            line-height:24px;
+            width:100%;
+            left:0;
+        }
+    }
+    .App .classroom_layout{
+        .viewport-flex{
+            display: block !important;
+        }
+        .viewport-left{
+            float: none;
+            width: 100%;
+            min-width: 256px !important;
+            position: absolute;
+            left: 0;
+            right:0;
+            top:0;
+            bottom:40%;
+        }
+        .viewport-right{
+            float: none;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right:0;
+            top:60%;
+            bottom: 0;
+        }
+        .student_class .close{
+            display: none;
+        }
+        .viewport-play{
+            width: 100%!important;
+        }
+        .subscribe{
+            float: none;
+            width: 100%;
+            min-width:69vw !important;
+            position: absolute;
+            left: -5px;
+            right: 0;
+            top: 60%;
+            bottom: 0;
+        }
+        .sub_wrapper{
+            left: 0;
+            width: 100%;
+        }
+         .subscribe .subscribe_content{
+             margin-left:3px;
+         }
+        .subscribe .subscribe_content,
+        .subscribe .video_wrapper{
+            width: 100%;
+        }
+        .subscribe .video_wrapper div{
+            width: 100%!important;
+            position: relative;
+            background-color: #222;
+        }
+        .chat_main{
+            position: absolute;
+            top:187px;
+            bottom: 0;
+            height: auto;
+        }
+        .student_class .chat_list{
+            bottom:48px;
+        }
+        .student_class .chat_list_content{
+            bottom:0;
+        }
+    }
+    
+}

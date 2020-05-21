@@ -1,0 +1,172 @@
+.chat_main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    .chat_list_wrapper{
+        position: relative;
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        padding: 0 3px;
+         .top31 {
+             top: 31px !important;
+         }
+        .user_list{
+            position: absolute;
+            overflow: auto;
+            width: 100%;
+            padding-top: 3px;
+            top: 61px;
+            left: 0;
+            right: 0;
+            bottom: 0px;
+            background-color: #f5f8ff;
+        }
+        .callList{
+            position: absolute;
+            overflow: auto;
+            width: 100%;
+            padding-top: 3px;
+            top: 61px;
+           
+            left: 0;
+            right: 0;
+            bottom: 0px;
+            background-color: #f5f8ff;
+        }
+        .chat_list{
+            width: 100%;
+            position: absolute;
+            overflow: auto;
+            padding: 3px 4px 0 ;
+            box-sizing: border-box;
+            top: 61px;left: 0; right: 0;bottom: 105px;
+            background-color: #f5f8ff;
+            .chat_list_other{
+                text-align: left;
+                height: 20px;
+            }
+            .chat_list_me{
+                text-align: right;
+            }
+        }
+        .chat_list_content{
+            text-align: left;
+            position: absolute;
+            bottom: 0;left: 0;right: 0;
+            display: -webkit-flex;
+            display: flex;
+            background-color: #f0f4ff;
+
+            .input{
+                 -webkit-flex: 1;
+                 flex:1;
+                 .text_wrapper{
+                    padding: 5px;
+                    border-radius: 5px;
+                 }
+                
+            }
+            .btn_wrapper {
+                position: relative;
+                padding: 5px;
+                vertical-align: top;
+                .sendBtn {
+                    cursor: pointer;
+                    margin-right: 10px;
+                }
+            }
+            .disChat {
+                -webkit-flex: none;
+                flex: none;
+                width: 34px;
+                height: 34px;
+                height: 100%;
+                display: inline-block;
+            }
+        }
+    }
+   
+}
+
+.student_class{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    .student_chat_header{
+        vertical-align: top;
+        font-size: 18px;
+        height: 31px;
+        background-color: #ededed;
+        box-sizing: border-box;
+        padding-left: 16px;
+        line-height: 31px;
+        .text{
+            font-size: 16px;
+            line-height: 28px;
+            display: inline-block;
+        }
+    }
+    .mr5{
+        margin-right: -5px;
+    }
+    .chat_list{
+        width: 100%;
+        position: absolute;
+        overflow: auto;
+        padding: 3px 10px 0 3px ;
+        box-sizing: border-box;
+        top: 31px;left: 0; right: 0;bottom: 216px;
+        background-color: #f5f8ff;
+        .chat_list_other{
+            text-align: left;
+            height: 20px;
+        }
+        .chat_list_me{
+            text-align: right;
+        }
+    }
+    .chat_list_content{
+        text-align: left;
+        position: absolute;
+        bottom: 188px;left: 0;right: 0;
+        display: -webkit-flex;
+        display: flex;
+        background-color: #f0f4ff;
+        padding:10px 12px 10px 4px;
+       
+    }
+    .close{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 8px;
+        right: 0px;
+        background-color: #d1d1d1;
+        z-index:1000;
+        cursor: pointer;
+        box-sizing: border-box;
+        vertical-align: middle;
+        font-size: 10px;
+        span{
+            position: absolute;
+            top: 49%;
+            transform: scale(.85);
+            display: inline-block;
+            margin-left: -2px;
+        }
+    }
+     .input{
+        -webkit-flex: 1;
+        flex:1;
+        .sendBtn1{
+            cursor: pointer;
+            width:50px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}

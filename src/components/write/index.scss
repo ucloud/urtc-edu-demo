@@ -1,0 +1,104 @@
+.phase-tooltip {
+    min-width: 60px;
+}
+
+.write_main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0;  
+    height: 100%;
+    text-align: left;
+    &.small{
+        height: 144px;
+        width: 100%;
+    }
+
+    .phase {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        z-index: 999;
+
+        .pill {
+            width: 8px;
+            height: 16px;
+            border-radius: 4px;
+        }
+        .connecting {
+            background-color: #4074e1;
+        }
+        .connected {
+            background-color: #4cd964;
+        }
+        .reconnecting {
+            background-color: #f9ce1d;
+        }
+        .disconnecting {
+            background-color: #4074e1;
+        }
+        .disconnected {
+            background-color: #bbbbbb;
+        }
+    }
+}
+.white-board{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    text-align: left;
+    background-color: #fff;
+}
+
+.write_active {
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    z-index: 11;
+    text-align: center;
+    background-color:#f0f4ff;
+
+    .iconfont {
+        display: inline-block;
+        height: 28px;
+        width: 30px;
+        margin: 10px;
+        font-size: 18px;
+        line-height: 28px;
+
+        cursor: pointer;
+        color: #333;
+
+        &.icon-border {
+            font-size: 18px;
+        }
+
+        &.icon-text {
+            font-size: 14px;
+        }
+
+        &.active,&:hover{
+            font-weight: bold;
+            color: #fff;//#ec3455;
+            transform: scale(1.2);
+            background-color:#6fb4f0;
+        }
+    }
+}
+
+.menu-box {
+    position: absolute;
+    top: 192px;
+    left: -257px;
+    bottom:0;
+    z-index: 12;
+    width: 255px;
+    // height: 100%;
+    box-shadow: 2px 0px 4px #eee;
+}
+

@@ -1,0 +1,8 @@
+{
+  "rtcConfig": {
+    "appId": "URtc-xxxxx",
+    "appkey": "",
+    "region": "",
+    "bucket": ""
+  }
+}

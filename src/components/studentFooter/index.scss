@@ -1,0 +1,33 @@
+.studentFooter{
+    position: absolute;
+    left: 20%;
+    bottom: 15px;
+    height: 41px;
+    line-height: 41px;
+    width: 78%;
+    z-index: 1000;
+    transition: all .3s;
+    box-sizing: border-box;
+    background-color: #ededed;
+    vertical-align: top;
+    .icon_wrapper{
+        font-size: 18px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 12px;
+        >b{
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    .btn_left_wrapper {
+        position: relative;
+        vertical-align: top;
+        overflow: hidden;
+    }
+    .btn_right_wrapper{
+        text-align: right;
+        position: relative;
+    }
+}

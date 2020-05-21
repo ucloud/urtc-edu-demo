@@ -1,0 +1,53 @@
+.classroom_main{
+    background-color: #ffffff;
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    min-height:558px;
+    overflow: hidden;
+    translate: all .3s;
+    
+  
+    .classroom_layout{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0;
+        box-sizing: border-box;
+        top: 42px;
+        bottom: 30px;
+        background-color: #f4f4f4;
+    }
+}
+.classroom_left{
+    position: relative;
+}
+.h0{
+    height: 0 !important;
+}
+
+
+.room-left{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom:0;
+    width: 256px;
+    overflow: auto;
+}
+.room-center{
+    position: absolute;
+    left: 256px;
+    right:230px;
+    top: 0;
+    bottom:0;
+}
+.room-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 230px;
+    bottom:0;
+}

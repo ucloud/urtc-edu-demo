@@ -1,0 +1,23 @@
+.device_test{
+    position: relative;
+    .device_mask_wrapper{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        .device_mask{
+            position: relative;
+            box-sizing: border-box;
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 200px;
+        }
+    }
+    .live_watch{
+        position: relative;
+        cursor: pointer;
+        color: rgb(64, 116, 225)
+    }
+}

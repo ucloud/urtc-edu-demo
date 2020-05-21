@@ -1,0 +1,116 @@
+.subscribe {
+  text-align: left;
+  position: absolute;
+  min-width: 800px;
+  z-index: 1000;
+  left: 17px;
+  right: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  bottom: 0px;
+  // height: 120px;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  > .w100 {
+    cursor: pointer;
+  }
+  .subscribe_content {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    // white-space: nowrap;
+    overflow-x: auto;
+  }
+  .video_wrapper {
+    padding-top: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 92%;
+    position: relative;
+    box-sizing: border-box;
+    white-space: normal;
+    // word-wrap: break-word;
+    // word-break: break-all;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 1%;
+    .name_wrapper{
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      width: auto;
+      height: 18px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      background-color: #ffffff;
+      .head{
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        vertical-align: middle;
+        background-image: url(../../common//img/cc.png);
+        background-size: 100%;
+        line-height: 20px;
+      }
+      .text {
+        line-height: 18px;
+        font-size: 12px;
+        margin-left: 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 50px;
+      }
+    }
+    // background-color: red;
+  }
+  .video_userInfo {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 8px;
+    left: 4px;
+    height: 16px;
+    line-height: 12px;
+    padding-left: 1px;
+    width: 90px;
+    border-radius: 10px;
+    color: black;
+    background-color: #fff;
+    opacity: 0.3;
+  }
+  .subscribe_content_local {
+    border: 1px solid rgb(141, 227, 77);
+    display: inline-block;
+  }
+
+  .head_bg {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-image: url(../../common/img/cc.png);
+    background-size: 100%;
+    line-height: 20px;
+  }
+
+  .head_name {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 12px;
+    margin: 0 5px;
+    overflow: hidden; //超出的文本隐藏
+    text-overflow: ellipsis; //溢出用省略号显示
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 50px;
+  }
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.student_applycall_main {
+    display: inline-block;
+    cursor: pointer;
+    height: 33px;
+    overflow: hidden;
+    .icon_wrapper {
+        font-size: 14px;
+        margin: 0 5px 0 9px;
+    }
+    .fCMiv{
+        height: 20px;
+        line-height: 20px;
+    }
+    .darkgray{
+        color: darkgray;
+    }
+    .applyCall_main_wrapper_btn {
+        width: 115px;
+    }
+    .w100 {
+        width: 100%;
+    }
+    .tip{
+        display: inline-block;
+        font-size: 14px
+    }
+}

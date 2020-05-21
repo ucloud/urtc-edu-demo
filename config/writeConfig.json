@@ -1,0 +1,10 @@
+{
+  "ossConfigObj": {
+    "accessKeyId": "",
+    "accessKeySecret": "",
+    "bucket": "",
+    "region": "",
+    "folder": "",
+    "prefix": ""
+  }
+}
