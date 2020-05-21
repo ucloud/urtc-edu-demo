@@ -5,6 +5,7 @@
 1. 添加配置
 
 修改 config 目录下 rtcConfig 文件，并配置 AppId 和 AppKey
+
 修改 config 目录下 writeConfig 文件，配置白板参数
 
 > 注：
