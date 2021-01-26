@@ -8,7 +8,7 @@
 -->
 # urtc-demo
 
-本 demo 运行网址：https://weilai.urtc.com.cn/
+本 demo 运行网址：https://demo.urtc.com.cn/
 
 ## 运行步骤
 
