@@ -24,7 +24,7 @@
     "socket.io-client": "^2.2.0",
     "styled-components": "^3.4.10",
     "urtc-im": "^0.3.2",
-    "urtc-sdk": "^1.6.28",
+    "urtc-sdk": "latest",
     "uuid": "^3.3.3",
     "vconsole": "^3.3.4",
     "white-react-sdk": "^2.5.7",
